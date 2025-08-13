@@ -1,6 +1,6 @@
 mountpoints:
   /: 
-    url: https://author-p45257-e457590.adobeaemcloud.com/bin/franklin.delivery/mycompany/my-forms-project/main
+    url: https://author-p45257-e1749051.adobeaemcloud.com/bin/franklin.delivery/mycompany/my-forms-project/main
     type: "markup"
     suffix: ".html"
   
