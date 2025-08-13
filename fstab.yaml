@@ -1,6 +1,6 @@
 mountpoints:
   /: 
-    url: https://author-p45257-e1749051.adobeaemcloud.com/bin/franklin.delivery/curiousnk/edsforms/main
+    url: https://author-p45257-e1749051.adobeaemcloud.com/bin/franklin.delivery/curiousnk/EDForm/main
     type: "markup"
     suffix: ".html"
   
