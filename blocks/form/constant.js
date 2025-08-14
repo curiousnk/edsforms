@@ -34,7 +34,6 @@ export let submitBaseUrl = 'https://publish-p45257-e1749051.adobeaemcloud.com';
 // Staging Environment
 // export const submitBaseUrl = 'https://publish-p45257-e1749051.adobeaemcloud.com';
 
-
 export const SUBMISSION_SERVICE = 'https://forms.adobe.com/adobe/forms/af/submit/';
 
 export function setSubmitBaseUrl(url) {
@@ -44,4 +43,3 @@ export function setSubmitBaseUrl(url) {
 export function getSubmitBaseUrl() {
   return submitBaseUrl;
 }
-
