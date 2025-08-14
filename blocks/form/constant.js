@@ -26,7 +26,7 @@ export const emailPattern = '([A-Za-z0-9][._]?)+[A-Za-z0-9]@[A-Za-z0-9]+(\.?[A-Z
 // let submitBaseUrl = '';
 
 // Staging Environment
-export const submitBaseUrl = 'https://publish-p45257-e1749051.adobeaemcloud.com';
+export let submitBaseUrl = 'https://publish-p45257-e1749051.adobeaemcloud.com';
 
 // Local Development Environment
 // export const submitBaseUrl = 'http://localhost:4503';
@@ -37,11 +37,11 @@ export const submitBaseUrl = 'https://publish-p45257-e1749051.adobeaemcloud.com'
 
 export const SUBMISSION_SERVICE = 'https://forms.adobe.com/adobe/forms/af/submit/';
 
-/* export function setSubmitBaseUrl(url) {
+export function setSubmitBaseUrl(url) {
   submitBaseUrl = url;
 }
 
 export function getSubmitBaseUrl() {
   return submitBaseUrl;
 }
-*/
+
